@@ -1,10 +1,10 @@
-package com.hcl.ClaimsManagementSystem.controller;
+package com.ClaimsManagementSystem.controller;
 
-import com.hcl.ClaimsManagementSystem.entity.Claim;
-import com.hcl.ClaimsManagementSystem.entity.Member;
-import com.hcl.ClaimsManagementSystem.exceptions.ClaimsNotFoundException;
-import com.hcl.ClaimsManagementSystem.exceptions.MemberNotFoundException;
-import com.hcl.ClaimsManagementSystem.service.ClaimsManagementServiceImpl;
+import com.ClaimsManagementSystem.entity.Claim;
+import com.ClaimsManagementSystem.entity.Member;
+import com.ClaimsManagementSystem.exceptions.ClaimsNotFoundException;
+import com.ClaimsManagementSystem.exceptions.MemberNotFoundException;
+import com.ClaimsManagementSystem.service.ClaimsManagementServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

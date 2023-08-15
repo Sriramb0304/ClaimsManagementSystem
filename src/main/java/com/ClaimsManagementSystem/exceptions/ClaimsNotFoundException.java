@@ -1,4 +1,4 @@
-package com.hcl.ClaimsManagementSystem.exceptions;
+package com.ClaimsManagementSystem.exceptions;
 
 public class ClaimsNotFoundException extends RuntimeException{
 

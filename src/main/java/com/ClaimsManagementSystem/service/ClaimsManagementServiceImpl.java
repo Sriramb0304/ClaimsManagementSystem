@@ -1,24 +1,24 @@
-package com.hcl.ClaimsManagementSystem.service;
+package com.ClaimsManagementSystem.service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+import com.ClaimsManagementSystem.entity.Claim;
+import com.ClaimsManagementSystem.entity.Member;
+import com.ClaimsManagementSystem.repository.ClaimRepository;
+import com.ClaimsManagementSystem.repository.MemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.hcl.ClaimsManagementSystem.entity.Claim;
-import com.hcl.ClaimsManagementSystem.entity.Member;
-import com.hcl.ClaimsManagementSystem.repository.ClaimRepository;
-import com.hcl.ClaimsManagementSystem.repository.MemberRepository;
 
 @Service
 public class ClaimsManagementServiceImpl implements ClaimsManagementService {
 
 	@Autowired
-	MemberRepository memberRepository;
+    MemberRepository memberRepository;
 
 	@Autowired
-	ClaimRepository claimRepository;
+    ClaimRepository claimRepository;
 
 	@Override
 	public List<Member> getAllMembers() {

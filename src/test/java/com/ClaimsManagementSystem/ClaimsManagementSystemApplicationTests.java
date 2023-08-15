@@ -1,4 +1,4 @@
-package com.hcl.ClaimsManagementSystem;
+package com.ClaimsManagementSystem;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.hcl.ClaimsManagementSystem;
+package com.ClaimsManagementSystem;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

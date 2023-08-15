@@ -1,4 +1,4 @@
-package com.hcl.ClaimsManagementSystem.exceptions;
+package com.ClaimsManagementSystem.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,10 +1,10 @@
-package com.hcl.ClaimsManagementSystem.service;
+package com.ClaimsManagementSystem.service;
 
 import java.util.List;
 import java.util.Optional;
 
-import com.hcl.ClaimsManagementSystem.entity.Claim;
-import com.hcl.ClaimsManagementSystem.entity.Member;
+import com.ClaimsManagementSystem.entity.Claim;
+import com.ClaimsManagementSystem.entity.Member;
 
 public interface ClaimsManagementService {
 
@@ -18,7 +18,7 @@ public interface ClaimsManagementService {
 	 
 	 Member updateMember(long memberId,Member member);
 
-	 Claim updateClaim (long memberId,long claimId,Claim claim);
+	 Claim updateClaim (long memberId, long claimId, Claim claim);
 
 	 List<Claim> getAllClaims();
 	 

@@ -1,4 +1,4 @@
-package com.hcl.ClaimsManagementSystem.entity;
+package com.ClaimsManagementSystem.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
